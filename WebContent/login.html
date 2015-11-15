@@ -1,0 +1,41 @@
+<link rel="stylesheet" type="text/css" href="student.css">
+Login Page | <a href="index.jsp">Back</a>
+
+<hr  style='border:2px solid orange;'/>
+<br>
+<table border='2' bordercolor='#424242' width='300' class='boxs' height="150">
+	<tr>
+		<td height='20'bgcolor='#424242' align='right'>
+			<table width='397' border='0'>
+				<tr>
+					<td width='200' align='left' style='color:white;font-family:Segoe UI Light;'>Student Login</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+	<td bgcolor='white'>  
+		<form name="myform" action="Controller" onsubmit="return validate()" method='post'>
+			<table cellpadding='10' border='0' align='center' width='300'>
+			<tr><td height='15'></td></tr>
+			<tr>
+			    <td class='label' align='right'>User Name :</td>
+			    <td><input type="text" name="userid" maxlength='12' style='text-align:center'></td>
+			</tr>
+			<tr>
+			    <td class='label' align='right'>Password :</td>
+			    <td><input type="password" name="pwd" maxlength='12' style='text-align:center'></td>
+			</tr>
+
+			 <tr>
+			    <td></td>
+			    <td colspan='2'><input type="submit" value="Login" name='action'class='buttun' style='background-color:#424242' >
+			    &nbsp;<input type="reset" value="Reset"class='buttun'style='background-color:#424242' >
+			    </td>
+			</tr> 
+			</table>  
+		</form>
+	</td>
+	</tr>
+</table>
+</div>

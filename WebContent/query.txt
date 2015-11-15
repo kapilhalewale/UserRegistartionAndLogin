@@ -1,0 +1,4 @@
+create table if not exists myStudent(
+id int(5),firstName varchar(30),lastName varchar(30),
+dob varchar(12), age int(3), userName varchar(12), password varchar(12),
+state varchar(35),country varchar(25),mobile varchar(11),email varchar(35), PRIMARY KEY (id));
